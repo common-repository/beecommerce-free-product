@@ -1,0 +1,46 @@
+/*
+CCS for Woocommerce 3+1 coupons plugin
+*/
+
+#freeproduct_modal { 
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+button.freeproduct_cancel {
+    float: right;
+}
+
+.wc-freeproduct{clear:both}
+.freeproduct_products{margin-bottom:2em}
+.woocommerce-page table.cart td.actions #freeproduct_modal,
+.woocommerce table.cart td.actions #freeproduct_modal{text-align:left}
+.wc_freeproduct_notes_container{clear:both;margin:1em 0 0 0}
+table.cart .wc-freeproduct img{width:auto;margin-top:.5em}
+.wc-freeproduct p.freeproduct_header{margin:1em 0 0 0}
+.freeproduct_header a{cursor:pointer}
+ul.freeproduct_ul,
+.type-page .wc-freeproduct ul,
+#left-area ul.freeproduct_ul,
+.entry-content ul.freeproduct_ul{margin:1em 0;padding:0;list-style:none;display:inline-block}
+ul.freeproduct_ul li,.entry ul.freeproduct_ul li{float:left;list-style:none}
+ul.freeproduct_ul li:not(first-of-type){margin:1em 3em 0 0}
+.wc-freeproduct input[type="radio"]{vertical-align:middle}
+.freeproduct_li .freeproduct_thumb,
+.wc-freeproduct .freeproduct_thumb{margin:1em 0 0 0}
+table.cart td.actions .coupon .wc-freeproduct li label,
+.woocommerce table.cart td.actions .coupon .wc_freeproduct_notes_container label,
+.woocommerce table.cart td.actions .coupon .wc-freeproduct label,
+.woocommerce-page #content table.cart td.actions .coupon .wc-freeproduct label,
+.woocommerce-page table.cart td.actions .coupon .wc-freeproduct label{display:inline;margin-left:.5em}
+.wc_freeproduct_notes_container label,
+.woocommerce table.cart td.actions .coupon .wc_freeproduct_notes_container label{display:block;margin-left:0}
+.wc-freeproduct textarea{display:block;width:100%;box-sizing:border-box}
+.modal-open .wc_freeproduct_notes_container textarea{width:100%}
+.wc-freeproduct .amount:before{content:"- "}
+
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.modal-open{overflow:hidden}.wc-freeproduct .modal{display:none;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;z-index:999999;-webkit-overflow-scrolling:touch;outline:0}.modal-open .wc-freeproduct .modal{overflow-x:hidden;overflow-y:auto}.wc-freeproduct .modal-dialog{position:relative;width:auto;margin:10px}.wc-freeproduct .modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,0.2);border-radius:6px;-webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5);box-shadow:0 3px 9px rgba(0,0,0,0.5);-webkit-background-clip:padding-box;background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#000}.wc-freeproduct .modal-header{padding:15px;border-bottom:1px solid #e5e5e5}.modal-header .close{margin-top:-2px}.wc-freeproduct .modal-title{margin:0;line-height:1.42857143}.wc-freeproduct .modal-body{position:relative;padding:15px}.wc-freeproduct .modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.wc-freeproduct .modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.wc-freeproduct .modal-footer .btn-group .btn+.btn{margin-left:-1px}.wc-freeproduct .modal-footer .btn-block+.btn-block{margin-left:0}.wc-freeproduct .modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width:768px){.wc-freeproduct .modal-dialog{width:600px;margin:30px auto}.wc-freeproduct .modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,0.5);box-shadow:0 5px 15px rgba(0,0,0,0.5)}}.wc-freeproduct .modal-header:before,.wc-freeproduct .modal-header:after,.wc-freeproduct .modal-footer:before,.wc-freeproduct .modal-footer:after{content:" ";display:table}.wc-freeproduct .modal-header:after,.wc-freeproduct .modal-footer:after{clear:both}

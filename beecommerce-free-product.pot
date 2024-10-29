@@ -1,0 +1,50 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-17 16:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/free-coupon-front.php:335
+msgid "Add free product"
+msgstr ""
+
+#: includes/free-coupon-front.php:335
+#, php-format
+msgid "Add free product (%d items left)"
+msgstr ""
+
+#: includes/variation-form-template.php:5 includes/simple-form-template.php:5
+#, php-format
+msgid "Choose free product %d of %d"
+msgstr ""
+
+#. Name of the plugin
+msgid "Beecommerce 3+1 Free Product"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin adds ability to create automatic coupons with additional features."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://beecommerce.pl/do-pobrania/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Martyna Tołoczko, Piotr Stanek"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://beecommerce.pl/"
+msgstr ""
